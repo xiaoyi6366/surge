@@ -8,6 +8,10 @@ http-response ^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getde
 
 http-request ^https?://.+/amdc/mobileDispatch requires-body=1,script-path=eval_script.js
 
+http-request ^https:\/\/u.y.qq.com\/cgi\-bin\/musicu.fcg requires-body=1,script-path=eval_script.js
+
+http-response ^https:\/\/u.y.qq.com\/cgi\-bin\/musicu.fcg requires-body=1,script-path=eval_script.js
+
 http-request ^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D script-path=eval_script.js
 
 http-response ^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D requires-body=1,script-path=eval_script.js
